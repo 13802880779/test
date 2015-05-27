@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+  <!-- Changing the default port for REST since it conflicts with yarn nodemanager  -->
+  <property>
+    <name>msisdn.position</name>
+    <value>100</value>
+    <description>position of msisdn item</description>
+  </property>
+</configuration>
